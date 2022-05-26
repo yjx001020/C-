@@ -3,6 +3,9 @@
 using namespace std;
 
 double Circle::getArea() {
+  int *array = new int[10];
+  array[0] = 0;
+  delete[] array;
   return 3.14 * r * r;
 }
 
